@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Morse {
-
+//test kommentar
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
