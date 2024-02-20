@@ -49,11 +49,11 @@ public class TDD {
     public void testConvertAtoStar() {
         Converter converter = new Converter();
 
-        String testdata = "A";
+        String testdata = "*-";
 
-        String expected = "*-";
+        String expected = "A";
 
-        String actual = converter.getMorse(testdata);
+        String actual = converter.getEnglish(testdata);
 
         assertEquals(expected, actual);
 
