@@ -58,15 +58,5 @@ public class TDD {
         assertEquals(expected, actual);
 
     }
-    //Fler testfall som jag vill testa
-    //* = E
-    //*** = S
-    //*- = A
-    //a = *-
-    //! = error/[]
-    //HEJ = **** * *---
-    //-*-* = C
-    //-* -* = NN -* -* = NN
-    //HEJ HEJ = **** * *--- / **** * *---
 
 }
